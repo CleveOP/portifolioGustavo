@@ -129,19 +129,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.social-links a {
-    font-size: 1.8em; /* Aumenta o tamanho do ícone */
-    margin: 0 15px; /* Espaçamento entre os ícones */
-    transition: color 0.3s ease, transform 0.3s ease;
-    display: inline-block; /* Necessário para a transformação */
-}
-
-.social-links a:hover {
-    color: var(--primary-color); /* Muda a cor ao passar o mouse */
-    text-decoration: none; /* Remove o sublinhado dos ícones */
-    transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
-}
-
 /* Animação de entrada para os cards */
 @keyframes fadeInUp {
     from {
@@ -161,3 +148,20 @@ footer a:hover {
 
 .animated-card:nth-of-type(2) { animation-delay: 0.2s; }
 .animated-card:nth-of-type(3) { animation-delay: 0.4s; }
+
+.button-ms-criacoes {
+    display: inline-block;
+    background-color: #8A2BE2; /* Roxo */
+    color: #ffffff; /* Texto branco */
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+.button-ms-criacoes:hover {
+    background-color: #6a1ead; /* Roxo mais escuro no hover */
+    transform: scale(1.05);
+}
